@@ -1,0 +1,37 @@
+.job-post{
+    padding: 15px 0;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 15px;
+    &-logo{
+        width: 75px;
+        height: 75px;
+    }
+    &-content{
+        margin-left: 15px;
+    }
+    &-title{
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        a{
+            color: #333;
+            text-decoration: none;
+        }
+    }
+    &-info{
+        display: flex;
+        margin-top: 10px;
+        color: #999;
+        li{
+            margin-right: 20px;
+        }
+        i{
+            margin-right: 5px;
+        }
+        span{
+            margin-right: 15px;
+        }
+    }
+}
